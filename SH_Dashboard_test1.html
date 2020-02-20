@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Health and Wellness Patient Portal</title>
+
+    <!-- Bootstrap -->
+    <link href="http://aimeeuconn.github.io/uconn_sh_dashboard/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	  <!Navbar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#">Navbar</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+          </ul>
+       </div>
+    </nav>
+	  <!navbar end>
+	  
+<!----Top "Welcome" Section---->
+    <div class="jumbotron jumbotron-fluid text-center">
+       <h1 class="display-4">Welcome to your MyHealth Patient Portal</h1>
+       <p class="lead">Here, you can easily schedule appointments, view secure messages about your care, and more.</p>
+       <hr class="my-4">
+       <p>Student Health and Wellness is committed to providing top-quality care and support for our students.</p>
+       <p class="lead">
+          <a class="btn btn-primary btn-lg" href="studenthealth.uconn.edu" role="button">Learn more</a>
+       </p>
+    </div>
+   
+ <!----Updates Section---->
+	  <div class="container">
+       <div class="row text-center">
+          <div class="col-lg-6 offset-lg-3"><strong>You have forms due. <a href="#" class="card-link">Click here</a> to complete your forms. (use this section for updates- forms due/info about campus outbreak/etc.)</strong></div>
+       </div>
+       <br>
+       <hr>
+       <br>
+		  
+<!----Cards---->
+		  <!ROW ONE>
+		   <!----Span Card Section---->
+		<div class="row">
+          <div class="col-md-12">
+			  <!Card start>
+             <div class="card shadow-nohover">
+                
+                <div class="card-body">
+                   <h5 class="card-title">Secure Messages</h5>
+                   <p class="card-text">Some text to build on the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Date and Time | Dr. Husky | Truncated message preview (if we can?) </li>
+                   <li class="list-group-item">Most Recent Message 2</li>
+				   <li class="list-group-item">Most Recent Message 3</li>
+                </ul>
+                <div class="card-body">
+                   <a href="#" class="card-link">All Messages</a>
+               
+                </div>
+             </div>
+			  <br>
+			  <!Card end>
+          </div>	
+       </div>
+		  
+		  <!Row TWO>
+      <!----Left Card Section---->
+		<div class="row">
+          <div class="col-md-4">
+			  <!Card start>
+             <div class="card shadow-nohover">
+                <div class="card-body">
+                   <h4 class="card-title">Appointments</h4>
+                   <p class="card-text">Your next appointment is <strong>Date, Time, Location with Dr. Husky.</strong> Please fill out any required forms prior to your appointment.</p>
+					<!alt text if no appointments>
+					<p class="card-text">You have no upcoming appointments at this time. Click below to schedule an appointment.</p>
+					<!end alt text>
+                   <br>
+                   <a href="https://myhealth.uconn.edu/ViewAppt" class="btn btn-primary">View All</a> <a href="https://myhealth.uconn.edu/SchedAppt/AcceptTerms" class="btn btn-primary">Schedule Appointment</a>
+                </div>
+             </div>	
+			  <br>
+			  <!Card end>
+          </div>
+			
+          <!----Center Card Section---->
+		   <div class="col-md-4">
+			 <!Card start>
+             <div class="card shadow-nohover">
+                <div class="card-body">
+					<h4 class="card-title">Forms</h4>
+                   <p class="card-text"><span class="badge badge-danger">Due</span> Your Health History Form is incomplete. <a href="#" class="card-link">Click Here</a> to complete. </p>
+					
+					<p class="card-text">You have no forms due at this time.</p>
+					<br>
+                   <a href="https://myhealth.uconn.edu/Forms" class="btn btn-primary">View All Forms</a>
+					<a href="https://myhealth.uconn.edu/Document" class="btn btn-primary">Upload Documents</a>
+                </div>
+             </div>
+             <br>
+             <!Card end>
+          </div>
+			
+		
+			
+			<!----Right Card Section---->
+          <div class="col-md-4">
+			  <!Card start>
+             <div class="card shadow-nohover">
+                
+                <div class="card-body">
+                   <h4 class="card-title">Immunizations</h4>
+                   <h6 class="card-subtitle mb-2 text-muted">Required Immunizations</h6>
+                
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Cras justo odio</li>
+                   <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+					<br>
+					<h6 class="card-subtitle mb-2 text-muted">Recommended Immunizations</h6>
+                
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Cras justo odio</li>
+                   <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+					
+				 </div>
+				 
+                <div class="card-body">
+                   <a href="https://myhealth.uconn.edu/app/reportviewer/?title=Immunization%20History&report=immunization" class="card-link">Your Immunization History</a>
+                   <a href="#" class="card-link">Another link</a>
+                </div>
+             </div>
+			  <br>
+			  <!Card end>
+          </div>	
+       </div>
+		 
+		  <!ROW THREE>
+      <!----Left Card Section---->
+		<div class="row">
+          <div class="col-md-4">
+			  <!Card start>
+             <div class="card shadow-nohover">
+                <div class="card-body">
+                   <h4 class="card-title">Labs</h4>
+         <h6 class="card-subtitle mb-2 text-muted">Most Recent Lab Results</h6>
+				   <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Date | Time | Lab Type | <a href="#">View Report</a></li>
+                   <li class="list-group-item">Date | Time | Lab Type | <a href="#">View Report</a></li>
+				   <li class="list-group-item">Date | Time | Lab Type | <a href="#">View Report</a></li>
+					</ul>
+                   <br>
+                   <a href="https://myhealth.uconn.edu/LabHistory" class="btn btn-primary">View All</a>
+                </div>
+             </div>	
+			  <br>
+			  <!Card end>
+          </div>
+			
+          <!----Center Card Section---->
+		   <div class="col-md-4">
+			 <!Card start>
+             <div class="card shadow-nohover">
+                <div class="card-body">
+                   <h4 class="card-title">Insurance</h4>
+                   <h6 class="card-subtitle mb-2 text-muted">You are on the UConn Insurance Plan.</h6>
+                   <p class="card-text">Remember to bring your ID with you to your appointment so we can pull up your insurance information.</p>
+					
+					<h6 class="card-subtitle mb-2 text-muted">You have opted out of the UConn Insurance Plan.</h6>
+                   <p class="card-text">Remember to bring your insurance card with you to your appointment for billing.</p>
+                   <a href="#" class="card-link">Billing</a>
+                   <a href="#" class="card-link">Another link</a>
+                </div>
+             </div>
+             <br>
+             <!Card end>
+          </div>
+			
+		
+			
+			<!----Right Card Section---->
+          <div class="col-md-4">
+             <div class="card shadow-nohover">
+                
+                <div class="card-body">
+                   <h4 class="card-title">Your Health Services</h4>
+                   <p class="card-text">As a UConn student, you have access to a variety of health and wellness resources, including:</p>
+                
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item"><a href="#">Medical Care</a></li>
+                   <li class="list-group-item"><a href="#">Mental Health</a></li>
+				   <li class="list-group-item"><a href="#">Pharmacy</a></li>
+				   <li class="list-group-item"><a href="#">Health Promotion</a></li>
+					</ul> 
+                </div>
+             </div>
+			  <br>	
+       </div>
+			<!Add additional rows here as needed>
+			<!END CARD ROWS>
+	</div>	  
+      
+      
+       <div class="row">
+          <div class="col-md-6 text-center">
+			  
+			  <!Button Card Start>
+             <div class="card shadow-nohover">
+                <div class="card-body">
+                   <h3>Adding <strong>Buttons</strong></h3>
+                   <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
+                   <button type="button" class="btn btn-info btn-md">Info Button</button>
+                   <button type="button" class="btn btn-success btn-md">Success Button</button>
+                </div>
+             </div>
+			  <br>
+          </div>
+		  <!end button card>
+		   
+		   <!Badge Card Start>
+          <div class="text-center col-md-6">
+             <div class="card shadow-nohover">
+                <div class="card-body">
+                   <h3>Adding <strong>Badges</strong></h3>
+                   <p>Using the insert panel, add badge to your page by using the badge component.</p>
+                   <span class="badge badge-info">Info Badge</span> <span class="badge badge-danger">Danger Badge</span>
+                </div>
+             </div>
+			  <br>
+          </div>
+		   <!end badge card>
+       </div>
+       <br>
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-12 ">
+             
+             <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="#" >Student Health and Wellness</a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../Downloads/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../Downloads/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/popper.min.js"></script>
+    <script src="../Downloads/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+  </body>
+</html>
